@@ -2,16 +2,18 @@
   Detects QR COde using Raspbian Pi model 3 B, PiCamera NOIR v2 
   with openCV 3.3 in real-time (streaming).
 
-  HW : Raspberry Pi 3 model b 
-       piCamera NOIR v2 
-       x4 zoom cellphone lens ( for detecting ~3m range) * not necessary
+  HW : 
+  * Raspberry Pi 3 model b 
+  * piCamera NOIR v2 
+  * x4 zoom cellphone lens ( for detecting ~3m range) * not necessary
        
-  SW & Library used: pyhton v3.5
-                     numpy
-                     PIL
-                     imutil (Thanks to https://www.pyimagesearch.com/ by Adrian Rosebrock)
-                     OpenCV v3.3.0
-                     zbarlight
+  SW & Library used: 
+  * pyhton v3.5
+  * numpy
+  * PIL
+  * imutil (Thanks to https://www.pyimagesearch.com/ by Adrian Rosebrock)
+  * OpenCV v3.3.0
+  * zbarlight
                      
   # To Run
   ~$ python3 detect_barcode2.py -pc 1   (for piCamera)
